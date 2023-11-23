@@ -103,26 +103,26 @@ console.log("Total Months: " + totalMonths)
 
 // calculate the total amount of profit/loss
 
-// var profit = 0;
+var profit = 0;
 
-// for ( let i=0; i < finances.length ; i++) {
-//   profit = profit + finances [i][1];
-// }
-// console.log("Total: " + profit)
+for ( let i=0; i < finances.length ; i++) {
+  profit = profit + finances [i][1];
+}
+console.log("Total: " + profit)
 
 
 // Calculating the average of the changes
 
-// var monthlyChange = 0
+var monthlyChange = 0
 
 
-// // for (let i=0; i < finances.length -1 ; i++){
-// //   monthlyChange += (finances [i+1][1]) - (finances [i][1])
-// // }
-// // console.log(monthlyChange)
-// // var averageChange = monthlyChange/(totalMonths -1)
+for (let i=0; i < finances.length -1 ; i++){
+  monthlyChange += (finances [i+1][1]) - (finances [i][1])
+}
+console.log(monthlyChange)
+var averageChange = monthlyChange/(totalMonths -1)
 
-// // console.log(averageChange)
+console.log(averageChange)
 
 // Greatest Increase in Profits/Losses
 
