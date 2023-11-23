@@ -86,3 +86,52 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+// // console log
+// console.log("Financial Analyst"/n + "-------------" /n +
+// "Total months"
+
+
+
+// )
+
+// calculate total number of months
+
+var totalMonths = finances.length
+
+console.log("Total Months: " + totalMonths)
+
+// calculate the total amount of profit/loss
+
+// var profit = 0;
+
+// for ( let i=0; i < finances.length ; i++) {
+//   profit = profit + finances [i][1];
+// }
+// console.log("Total: " + profit)
+
+
+// Calculating the average of the changes
+
+// var monthlyChange = 0
+
+
+// // for (let i=0; i < finances.length -1 ; i++){
+// //   monthlyChange += (finances [i+1][1]) - (finances [i][1])
+// // }
+// // console.log(monthlyChange)
+// // var averageChange = monthlyChange/(totalMonths -1)
+
+// // console.log(averageChange)
+
+// Greatest Increase in Profits/Losses
+
+// var changeArray = [];
+// var monthlyDiff = 0;
+// for (let i=0; i < finances.length -1 ; i++){
+//   monthlyDiff += (finances [i+1][1]) - (finances [i][1])
+//   changeArray.push (finances[i+1][0],monthlyDiff)
+// }
+// console.log(changeArray)
+
+// var greatestIncrease = math.max(changeArray[])
